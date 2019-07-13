@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Helpful Hello World</title>
+		<meta name="description" content="A helpful Hello World website to teach and learn">
+		<link rel="stylesheet" type="text/css" href="./styles.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a href="./index.html">Hello World</a>
+				</li>
+				<li>
+					<a href="./contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<h1>Contact</h1>	
+		<section>
+			<h2>Email</h2>
+			<a href="mailto:snakyy@live.dk">snakyy@live.dk</a>
+
+			<h2>Write a message</h2>
+			<form id="contact-form">
+				<label>Name*:</label>
+				<input type="text" required />
+
+				<label>Email:</label>
+				<input type="email" />
+
+				<label>Secret:</label>
+				<input type="password" />
+
+				<label>Message:</label>
+				<textarea rows="4"></textarea>
+
+				<button type="submit">Post Message</button>
+			</form>
+		</section>
+
+		<script type="text/javascript" src="./contact-scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Helpful Hello World</title>
+		<meta name="description" content="A helpful Hello World website to teach and learn">
+		<link rel="stylesheet" type="text/css" href="./styles.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a href="./index.html">Hello World</a>
+				</li>
+				<li>
+					<a href="./contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<h1>Hello World</h1>	
+		<section>
+			<h2>Functionality (JavaScript)</h2>
+			<button id="add-help-btn" type="button">Add Help from Google</button>
+			<button id="add-help-text" type="button">Add Helpful Text</button>
+			<button id="show-help-text" type="button">
+				Toggle Helpful Texts</button>
+			<div>
+				<h3>Input text in alert</h3>
+				<form id="input-text-form">
+					<input type="text" placeholder="Alert text here and ..." required maxlength="8" />
+					<input type="number" placeholder="number here" min="0" max="999" required />
+					<button type="submit">Submit text</button>
+				</form>
+			</div>
+		</section>
+		<section>
+			<h2>Help Us</h2>
+			<div class="helpful-texts hidden">
+				<p>
+					Don't give up on life, it only sucks all the way, it may suck worse tomorrow.
+				</p>
+			</div>
+			<div id="added-help-btns">
+				<!-- Our container for dynamically added helpful links, buttons and texts -->
+			</div>
+			<div>
+				<h3>Upload image file</h3>
+				<form id="upload-image-form">
+				    <input type="file" accept="image/*" multiple />
+				    <button type="submit">Upload File</button>
+				</form>
+			</div>
+			<div id="uploaded-images">
+				<h3>Uploaded images</h3>
+				<!-- Our container for dynamically loaded, uploaded images -->
+			</div>
+			<div id="random-color-container">
+				<h3>We got random colors on resize here...</h3>
+				<p>Resize the window for a new color!</p>
+			</div>
+			<div>
+				<button id="random-size-button" type="button">Click to give this button a random size</button>
+			</div>
+			<button id="chance-color" type="button">
+				klik here
+			<button>
+
+		</section>
+
+		<script type="text/javascript" src="./scripts.js"></script>
+
+	</body>
+</html>
